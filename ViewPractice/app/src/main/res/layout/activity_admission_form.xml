@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context=".AdmissionForm">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/hogwarts"
+        android:contentDescription="@null" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Hogwarts School"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+    </FrameLayout>
+
+  <LinearLayout
+      android:layout_weight="7"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:orientation="vertical"
+      android:padding="10dp">
+
+      <LinearLayout
+          android:layout_weight="1.5"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:orientation="horizontal">
+          <ImageView
+              android:layout_width="150dp"
+              android:layout_height="100dp"
+              android:src="@drawable/harry"
+              android:padding="5dp"/>
+
+          <TextView
+              android:padding="10dp"
+              android:textStyle="bold|italic"
+              android:textSize="20sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Harry Potter"/>
+
+      </LinearLayout>
+      <EditText
+          android:hint="Enter your phone number"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="0.5"
+          android:layout_marginTop="5dp"
+          android:padding="5dp"
+          android:inputType="number"
+          />
+      <DatePicker
+          android:id="@+id/simpleDatePicker"
+          android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:datePickerMode="spinner"
+          android:layout_weight="5"
+          />
+
+  </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:text="Cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:padding="20dp"
+            />
+        <Button
+            android:text="Submit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
