@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <FrameLayout
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="Different height and width in dp"
+                android:layout_gravity="center"
+                android:autoSizeTextType="uniform"
+                android:textColor="@color/white"
+                android:padding="15dp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="Different font size"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:autoSizeTextType="uniform"
+                android:textColor="@color/white"
+                android:padding="15dp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:background="@color/purple_500"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="Layout Gravity center"
+                android:layout_gravity="center"
+                android:autoSizeTextType="uniform"
+                android:textColor="@color/white"
+                android:padding="15dp"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:background="@color/purple_200"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="Layout gravity center horizontal"
+                android:layout_gravity="center_horizontal"
+                android:autoSizeTextType="uniform"
+                android:textColor="@color/white"
+                android:padding="15dp"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:text="bottom center horizontal"
+                android:layout_gravity="bottom|center_horizontal"
+                android:textColor="@color/white"
+                android:autoSizeTextType="uniform"
+                android:padding="15dp"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="TextView one"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:autoSizeTextType="uniform"
+                android:padding="15dp"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="Padding values"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:autoSizeTextType="uniform"
+                android:padding="15dp"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="Text Styles bold and italic"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:autoSizeTextType="uniform"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                android:padding="15dp"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="170dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a really, really, really long line of text so you can see how to ellipse works. This is a really, really, really long line of text so you can see how to ellipse works."
+                android:ellipsize = "end"
+                android:scrollHorizontally = "true"
+                android:autoSizeTextType="uniform"
+                android:minLines = "2"
+                android:maxLines = "2"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:padding="15dp"/>
+        </FrameLayout>
+    </GridLayout>
+
+</ScrollView>
