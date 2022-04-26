@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:layout_gravity="center"
+    tools:context=".MainActivity2"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/show_time"
+            android:text="@string/show_time"
+            android:layout_width="100dp"
+            android:autoSizeTextType="uniform"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/show_date"
+            android:text="@string/show_date"
+            android:layout_width="100dp"
+            android:layout_marginLeft="10dp"
+            android:autoSizeTextType="uniform"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/show_battery"
+            android:layout_width="100dp"
+            android:autoSizeTextType="uniform"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/show_battery" />
+
+
+    </LinearLayout>
+<FrameLayout
+    android:id="@+id/frameLayout"
+    android:layout_weight="5"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"/>
+
+</LinearLayout>

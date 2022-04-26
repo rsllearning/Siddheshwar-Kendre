@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fragment Assignment</string>
+    <string name="show_battery">Show Battery</string>
+    <string name="show_date">Show date</string>
+    <string name="show_time">Show time</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
