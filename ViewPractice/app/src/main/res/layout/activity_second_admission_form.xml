@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".SecondAdmissionForm">
+
+
+    <FrameLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:id="@+id/title_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/hogwarts"
+            android:contentDescription="@null" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Hogwarts School"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/profile_pic"
+        android:layout_below="@+id/title"
+        android:src="@drawable/harry"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_height="100dp"
+        tools:ignore="NotSibling" />
+    <TextView
+        android:id="@+id/profile_name"
+        android:text="Harry Potter"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/profile_pic"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_below="@+id/profile_name"
+        android:hint="Enter your phone number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:inputType="number"
+        />
+    <DatePicker
+        android:id="@+id/simpleDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_number"
+        android:datePickerMode="spinner"/>
+
+    <FrameLayout
+        android:id="@+id/cancel_frame_layout"
+        android:layout_below="@+id/simpleDatePicker"
+        android:layout_width="200dp"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/cancel_button"
+            android:text="Cancel"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_toRightOf="@+id/cancel_frame_layout"
+        android:layout_width="200dp"
+        android:layout_below="@+id/simpleDatePicker"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/submit_button"
+            android:text="Submit"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+</RelativeLayout>
