@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ShoppingApp</string>
+    <string name="spinner_title">Cloths</string>
+    <string-array name="programming_languages">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Python</item>
+        <item>CPP</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
