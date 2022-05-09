@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ShoppingCart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_number_of_items">Enter number of items</string>
+
+    <string-array name="quantity_string_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5(Max)</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>Select Category</item>
+        <item>Men Clothing</item>
+        <item>Women Clothing</item>
+        <item>Electronics</item>
+        <item>jewelery</item>
+    </string-array>
+
+</resources>
