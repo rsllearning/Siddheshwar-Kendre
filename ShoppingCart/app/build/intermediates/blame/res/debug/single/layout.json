@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_order.xml",
+        "source": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\src\\main\\res\\layout\\fragment_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shop_row.xml",
+        "source": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\src\\main\\res\\layout\\shop_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_shop.xml",
+        "source": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\src\\main\\res\\layout\\fragment_shop.xml"
+    },
+    {
+        "merged": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\cart_action_item.xml",
+        "source": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\src\\main\\res\\layout\\cart_action_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dropdown_item.xml",
+        "source": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\src\\main\\res\\layout\\dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_product_detail.xml",
+        "source": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\src\\main\\res\\layout\\fragment_product_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_cart.xml",
+        "source": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\src\\main\\res\\layout\\fragment_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\cart_row.xml",
+        "source": "C:\\Users\\ITC\\Desktop\\ShoppingCart\\app\\src\\main\\res\\layout\\cart_row.xml"
+    }
+]
